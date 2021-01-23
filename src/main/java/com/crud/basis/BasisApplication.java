@@ -8,7 +8,7 @@ public class BasisApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BasisApplication.class, args);
-		System.out.println("hello word");
+		System.out.println("Aplicação Iniciada");
 	}
 
 }

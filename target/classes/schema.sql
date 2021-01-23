@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS CITACOES;
+
+CREATE TABLE CITACOES (
+                          ID  INT AUTO_INCREMENT PRIMARY KEY,
+                          CITACAO VARCHAR(200) NOT NULL ,
+                          AUTOR VARCHAR(100) NOT NULL
+);
